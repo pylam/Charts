@@ -18,7 +18,7 @@ function alert_to_install_carthage {
     exit 1
 }
 
-if hash carthage 2>/dev/null 
+if hash ~/Carthage/bin/carthage 2>/dev/null 
 then
     build_dependencies
 else
